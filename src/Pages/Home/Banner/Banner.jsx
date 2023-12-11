@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import profile from '../../../assets/photos/profile.png'
 const Banner =()=> {
     return (
@@ -12,7 +13,7 @@ const Banner =()=> {
             <h1 className='text-5xl font-bold'>Full Stack Developer </h1>
             <p className="py-6 w-[546px]">I am a dedicated MERN Stack developer, driven by a passion for crafting high-performance and scalable web applications. With a solid foundation in MongoDB, Express.js, React.js, and Node.js,</p>
             
-            <button className="btn btn-outline btn-success">Download Cv</button>
+           <Link download={''}>   <button className="btn btn-outline btn-success">Download Cv</button></Link>
           </div>
         </div>
       </div>

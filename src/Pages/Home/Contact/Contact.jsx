@@ -1,6 +1,23 @@
-import React from 'react';
+
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
+import toast, { Toaster } from 'react-hot-toast';
 
 const Contact = () => {
+    const form = useRef();
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs.sendForm('service_mh4yybj', 'template_8p4zpwq', form.current, '05SFtOhQvrIffDR9G')
+          .then((result) => {
+              console.log(result.text);
+              toast.success('Message Sent Successfully')
+          }, (error) => {
+              console.log(error.text);
+          });
+      };
+
     return (
         <div className="hero min-h-screen ">
         <div className="hero-content flex-col lg:flex-row-reverse">
@@ -9,26 +26,27 @@ const Contact = () => {
   <div className="hero-content flex-col text-5xl font-bold">
    <p>GET TOUCH ME?</p>
     <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
-      <form className="card-body">
+      <form ref={form} onSubmit={sendEmail} className="card-body">
         <div className="form-control">
           <label className="label">
             <span className="label-text">Name</span>
           </label>
-          <input type="text" placeholder="Name" className="input input-bordered" required />
+          <input name="user_name"  type="text" placeholder="Name" className="input input-bordered" required />
         </div>
         <div className="form-control">
           <label className="label">
             <span className="label-text">Email</span>
           </label>
-          <input type="email" placeholder="Email" className="input input-bordered" required />
+          <input hidden name="user_email" type="email" value={'nazmulhasan.shadin3@gmail.com'} placeholder="Email" className="input input-bordered" required />
+          <input  name="message" type="email"  placeholder="Email" className="input input-bordered" required />
        
         </div>
-        <textarea placeholder="Enter Your message" className="textarea textarea-bordered textarea-md w-full max-w-xs" >
+        <textarea name="message"  placeholder="Enter Your message" className="textarea textarea-bordered textarea-md w-full max-w-xs" >
 
 
         </textarea>
         <div className="form-control mt-6">
-          <button className="btn btn-primary">Send Message</button>
+          <button type='submit' className="btn btn-primary">Send Message</button>
         </div>
       </form>
     </div>
@@ -61,6 +79,8 @@ const Contact = () => {
          {/* stat */}
           </div>
         </div>
+
+        <Toaster></Toaster>
       </div>
     );
 };
