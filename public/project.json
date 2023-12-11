@@ -1,0 +1,15 @@
+[
+    {   "name":"Inventory Management System",
+        "image":"https://i.ibb.co/xhcHxBW/inventory.png",
+        "type":"Mern Stack",
+         "details": "Inventory Management System is project that provide user to create shop manage shop "
+        
+    },
+    {   "name":"Book Library",
+        "image":"https://i.ibb.co/NTzMpsq/book.png",
+        "type":"Mern Stack",
+        "details": "Book Library from here user can borrow book after borrow it will update system stock and quantity and more functionality"
+
+        
+    }
+]
