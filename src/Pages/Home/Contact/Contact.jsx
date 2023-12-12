@@ -56,7 +56,7 @@ const Contact = () => {
           <div className="flex-1 ">
             <h1 className="text-2xl lg:text-5xl text-center lg:text ">Design and Innovation</h1>
           
-            <p className="py-6 lg:w-[546px]  lg:text">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit auting fugit sed thisnquia consequuntur magni dolores eos designer heresm qui ratione voluptatem sequi nesciuNeque porro quisquam est, oursqui dolorem ipsum quia dolor sit amet consectetur, adipisci velit, sed quia non numquam</p>
+            <p className="py-6 lg:w-[546px]  lg:text">As a MERN stack developer, my passion lies in crafting innovative and scalable web applications. I find joy in the process of turning complex ideas into functional and user-friendly solutions. With a strong foundation in MongoDB, Express.js, React.js, and Node.js, I embark on a journey of continuous learning and exploration in the dynamic field of web development</p>
             
             {/* stats */}
    <div className='flex  gap-4 '>
