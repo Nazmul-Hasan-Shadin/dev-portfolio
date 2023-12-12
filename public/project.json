@@ -2,13 +2,15 @@
     {   "name":"Inventory Management System",
         "image":"https://i.ibb.co/xhcHxBW/inventory.png",
         "type":"Mern Stack",
-         "details": "Inventory Management System is project that provide user to create shop manage shop "
+         "details": "Inventory Management System is project that provide user to create shop manage shop ",
+         "links":"https://inventory-management-system7.web.app/"
         
     },
     {   "name":"Book Library",
         "image":"https://i.ibb.co/NTzMpsq/book.png",
         "type":"Mern Stack",
-        "details": "Book Library from here user can borrow book after borrow it will update system stock and quantity and more functionality"
+        "details": "Book Library from here user can borrow book after borrow it will update system stock and quantity and more functionality",
+        "links":"https://book-library2.firebaseapp.com/"
 
         
     },
@@ -16,12 +18,14 @@
         "name":"Digital Store",
         "image":"https://i.ibb.co/b2qY8ZP/Screenshot-from-2023-12-12-14-57-52.png",
         "type":"Mern Stack",
-        "details": "This is digital store site . You can puchased anything from here by chossing different category"
+        "details": "This is digital store site . You can puchased anything from here by chossing different category",
+        "links":"https://technology-electronics1.web.app/"
     },
     {
         "name":"Yoga center",
         "image": "https://i.ibb.co/8cd0Kn4/Screenshot-from-2023-12-12-15-13-31.png",
         "type": "Front end authentication",
-        "details": "Here is specifie the Beneifet of yoga and diverse trainer are available to free or paid trained you."
+        "details": "Here is specifie the Beneifet of yoga and diverse trainer are available to free or paid trained you.",
+        "links":"https://yoga-center-cb96f.web.app/"
     }
 ]
