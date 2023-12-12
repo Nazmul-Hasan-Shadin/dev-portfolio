@@ -28,6 +28,25 @@ const Skill = () => {
             <p>Mongodb</p>
             <progress className="progress block  progress-info w-56 lg:w-[831px]" value="70" max="100"></progress>
          </span>
+
+         <span>
+            <p>Tailwind</p>
+            <progress className="progress block  progress-info w-56 lg:w-[831px]" value="90" max="100"></progress>
+         </span>   <span>
+            <p>tanstack query</p>
+            <progress className="progress block  progress-info w-56 lg:w-[831px]" value="60" max="100"></progress>
+         </span>
+
+         <span>
+            <p>Axios</p>
+            <progress className="progress block  progress-info w-56 lg:w-[831px]" value="80" max="100"></progress>
+         </span>
+
+         <span>
+            <p>Html</p>
+            <progress className="progress block  progress-info w-56 lg:w-[831px]" value="98" max="100"></progress>
+         </span>
+
         </div>
 
         </div>

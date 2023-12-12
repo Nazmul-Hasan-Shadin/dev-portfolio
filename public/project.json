@@ -17,5 +17,11 @@
         "image":"https://i.ibb.co/b2qY8ZP/Screenshot-from-2023-12-12-14-57-52.png",
         "type":"Mern Stack",
         "details": "This is digital store site . You can puchased anything from here by chossing different category"
+    },
+    {
+        "name":"Yoga center",
+        "image": "https://i.ibb.co/8cd0Kn4/Screenshot-from-2023-12-12-15-13-31.png",
+        "type": "Front end authentication",
+        "details": "Here is specifie the Beneifet of yoga and diverse trainer are available to free or paid trained you."
     }
 ]
