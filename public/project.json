@@ -11,5 +11,11 @@
         "details": "Book Library from here user can borrow book after borrow it will update system stock and quantity and more functionality"
 
         
+    },
+    {
+        "name":"Digital Store",
+        "image":"https://i.ibb.co/b2qY8ZP/Screenshot-from-2023-12-12-14-57-52.png",
+        "type":"Mern Stack",
+        "details": "This is digital store site . You can puchased anything from here by chossing different category"
     }
 ]

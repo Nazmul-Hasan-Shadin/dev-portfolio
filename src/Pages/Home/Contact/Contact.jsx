@@ -23,7 +23,7 @@ const Contact = () => {
         <div className="hero-content flex-col lg:flex-row-reverse">
            <div className="flex-1 rounded-full">
            <div className="hero min-h-screen ">
-  <div className="hero-content flex-col text-5xl font-bold">
+  <div className="hero-content flex-col lg:text-5xl font-bold">
    <p>GET TOUCH ME?</p>
     <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
       <form ref={form} onSubmit={sendEmail} className="card-body">
@@ -54,9 +54,9 @@ const Contact = () => {
 </div>   </div>
            
           <div className="flex-1 ">
-            <h1 className="text-5xl ">Design and Innovation</h1>
+            <h1 className="text-2xl lg:text-5xl text-center lg:text ">Design and Innovation</h1>
           
-            <p className="py-6 w-[546px]">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit auting fugit sed thisnquia consequuntur magni dolores eos designer heresm qui ratione voluptatem sequi nesciuNeque porro quisquam est, oursqui dolorem ipsum quia dolor sit amet consectetur, adipisci velit, sed quia non numquam</p>
+            <p className="py-6 lg:w-[546px]  lg:text">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit auting fugit sed thisnquia consequuntur magni dolores eos designer heresm qui ratione voluptatem sequi nesciuNeque porro quisquam est, oursqui dolorem ipsum quia dolor sit amet consectetur, adipisci velit, sed quia non numquam</p>
             
             {/* stats */}
    <div className='flex  gap-4 '>
